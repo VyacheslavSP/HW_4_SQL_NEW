@@ -1,0 +1,14 @@
+CREATE DATABASE HW_4;
+use HW_4;
+CREATE TABLE  test_a (id INT,data VARCHAR(1));
+CREATE TABLE  test_b (id INT);
+Insert into test_a(id,data) values
+(10,'A'),
+(20,'A'),
+(30,'F'),
+(40,'D'),
+(50,'C');
+Insert into test_b(id) values
+(10),
+(30),
+(50);
